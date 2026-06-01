@@ -8,7 +8,9 @@
         public string? Status { get; set; }
         // Chave estrangeira
         public int CustomerId { get; set; }
-
+        public User? Customer { get; set; }
+        // Lista de itens do pedido
+        public ICollection<OrderItem>? OrderItems { get; set; } = new List<OrderItem>();
         protected Order(){}
 
         public Order(int id, DateTime orderDate, decimal totalAmount, string status, int customerId)
