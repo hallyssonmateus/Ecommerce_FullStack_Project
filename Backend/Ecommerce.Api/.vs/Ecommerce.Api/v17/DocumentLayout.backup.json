@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\pichau\\Documents\\Projetos\\Ecommerce_FullStack_Project\\Backend\\Ecommerce.Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{514F4323-74D3-4ADA-8AE3-9EA579CC9F7D}|Ecommerce.Api.csproj|c:\\users\\pichau\\documents\\projetos\\ecommerce_fullstack_project\\backend\\ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{514F4323-74D3-4ADA-8AE3-9EA579CC9F7D}|Ecommerce.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{514F4323-74D3-4ADA-8AE3-9EA579CC9F7D}|Ecommerce.Api.csproj|c:\\users\\pichau\\documents\\projetos\\ecommerce_fullstack_project\\backend\\ecommerce.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{514F4323-74D3-4ADA-8AE3-9EA579CC9F7D}|Ecommerce.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pichau\\Documents\\Projetos\\Ecommerce_FullStack_Project\\Backend\\Ecommerce.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\pichau\\Documents\\Projetos\\Ecommerce_FullStack_Project\\Backend\\Ecommerce.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T02:45:27.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\pichau\\Documents\\Projetos\\Ecommerce_FullStack_Project\\Backend\\Ecommerce.Api\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\pichau\\Documents\\Projetos\\Ecommerce_FullStack_Project\\Backend\\Ecommerce.Api\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-06-04T02:54:13.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\pichau\\Documents\\Projetos\\Ecommerce_FullStack_Project\\Backend\\Ecommerce.Api\\Domain\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Category.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\pichau\\Documents\\Projetos\\Ecommerce_FullStack_Project\\Backend\\Ecommerce.Api\\Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CategoryConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\pichau\\Documents\\Projetos\\Ecommerce_FullStack_Project\\Backend\\Ecommerce.Api\\Infrastructure\\Data\\Configurations\\CategoryConfiguration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\CategoryConfiguration.cs",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\pichau\\Documents\\Projetos\\Ecommerce_FullStack_Project\\Backend\\Ecommerce.Api\\Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\AppDbContext.cs",
@@ -91,8 +108,7 @@
               "RelativeToolTip": "Infrastructure\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAUwBgAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T21:33:20.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T21:33:20.521Z"
             }
           ]
         }
