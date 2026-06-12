@@ -1,4 +1,6 @@
+using Ecommerce.Api.Domain.Interfaces;
 using Ecommerce.Api.Infrastructure.Data;
+using Ecommerce.Api.Infrastructure.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +9,9 @@ var connectionSting = builder.Configuration.GetConnectionString("DefaultConnecti
 
 builder.Services.AddDbContext<AppDbContext>(options => 
    options.UseSqlServer(connectionSting));
+
+// Injeção de dependencia para repositorios
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 // Add services to the container.
 
