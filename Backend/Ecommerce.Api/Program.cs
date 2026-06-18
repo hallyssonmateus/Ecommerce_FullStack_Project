@@ -2,6 +2,8 @@ using Ecommerce.Api.Domain.Interfaces;
 using Ecommerce.Api.Infrastructure.Data;
 using Ecommerce.Api.Infrastructure.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Ecommerce.Api.Services;
+using Ecommerce.Api.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,10 +14,15 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // Injeção de dependencia para repositorios
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+// Injeção de dependencia para serviços
+builder.Services.AddScoped<IProductService, ProductService>();
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddNewtonsoftJson(options =>
+{
+    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

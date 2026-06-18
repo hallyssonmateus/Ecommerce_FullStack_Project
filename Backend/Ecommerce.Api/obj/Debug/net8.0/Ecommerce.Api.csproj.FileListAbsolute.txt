@@ -139,3 +139,7 @@ C:\Users\pichau\Documents\Projetos\Ecommerce_FullStack_Project\Backend\Ecommerce
 C:\Users\pichau\Documents\Projetos\Ecommerce_FullStack_Project\Backend\Ecommerce.Api\obj\Debug\net8.0\Ecommerce.Api.genruntimeconfig.cache
 C:\Users\pichau\Documents\Projetos\Ecommerce_FullStack_Project\Backend\Ecommerce.Api\obj\Debug\net8.0\ref\Ecommerce.Api.dll
 C:\Users\pichau\Documents\Projetos\Ecommerce_FullStack_Project\Backend\Ecommerce.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\pichau\Documents\Projetos\Ecommerce_FullStack_Project\Backend\Ecommerce.Api\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\pichau\Documents\Projetos\Ecommerce_FullStack_Project\Backend\Ecommerce.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\pichau\Documents\Projetos\Ecommerce_FullStack_Project\Backend\Ecommerce.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\pichau\Documents\Projetos\Ecommerce_FullStack_Project\Backend\Ecommerce.Api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
