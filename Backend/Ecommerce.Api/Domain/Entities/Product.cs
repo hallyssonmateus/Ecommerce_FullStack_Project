@@ -8,7 +8,7 @@
         public decimal Price { get; set; }
         public int StockQuantity { get; set; }
         public bool IsActive { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
         //Adicionando relacionamento com Categoria
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
@@ -22,7 +22,7 @@
             Price = price;
             StockQuantity = stockQuantity;
             IsActive = isActive;
-            CreatedAt = createdAt;
+            CreatedAt = createdAt == default ? DateTime.Now : createdAt;
             CategoryId = categoryId;
         }
     }

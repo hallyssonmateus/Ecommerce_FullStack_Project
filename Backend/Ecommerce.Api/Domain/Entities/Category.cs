@@ -5,7 +5,7 @@
         public int Id { get; set; }
         public string? Name { get; set; }
         public string? Description { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
         // Relacionamento 1:N (Uma Categoria, Muitos Produtos)
         public ICollection<Product> Products { get; set; } = new List<Product>();
         protected Category() { }
@@ -14,7 +14,7 @@
             Id = id;
             Name = name;
             Description = description;
-            CreatedAt = createdAt;
+            CreatedAt = createdAt == default ? DateTime.Now : createdAt;
         }
     }
 }
