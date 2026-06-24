@@ -12,6 +12,17 @@ var connectionSting = builder.Configuration.GetConnectionString("DefaultConnecti
 builder.Services.AddDbContext<AppDbContext>(options => 
    options.UseSqlServer(connectionSting));
 
+// Registrar a politica de CORS
+builder.Services.AddCors(option =>
+{
+    option.AddPolicy("EcommerceReactApp", policy =>
+    {
+        policy.WithOrigins("http://localhost:5173")
+        .AllowAnyMethod()
+        .AllowAnyHeader();
+    });
+});
+
 // Injeção de dependencia para repositorios
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 // Injeção de dependencia para serviços
@@ -37,6 +48,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Ativar a politica de CORS
+app.UseCors("EcommerceReactApp");
 
 app.UseAuthorization();
 
