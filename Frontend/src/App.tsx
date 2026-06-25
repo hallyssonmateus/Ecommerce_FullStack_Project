@@ -1,11 +1,16 @@
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import ProductDetailPage from './pages/ProductDetailsPage';
+
 function App() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50">
-      <h1 className="text-3xl font-light tracking-wide text-zinc-900">
-        Skillix E-commerce Premium
-      </h1>
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/product/:id" element={<ProductDetailPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App
